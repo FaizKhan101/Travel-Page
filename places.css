@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58 ));
+    color: rgb(29, 27, 27);
+}
+
+header {
+    position: static;
+}
+
+main ul {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 500px;
+}
+
+main li img {
+    height: 300;
+    width: 250px;
+    object-fit: cover;
+}
+
+.item-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-content h2 {
+    color: rgb(87, 85, 85);
+    margin: 0;
+}
+
+.actions {
+    text-align: right;
+    margin-top: 25px;
+}
+.actions a {
+    text-decoration: none;
+    color: rgb(27, 167, 223);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.actions a:hover {
+    background-color: rgb(215, 239, 248);
+}
