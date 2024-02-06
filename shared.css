@@ -14,6 +14,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 #page-logo a {
@@ -22,7 +27,7 @@ header {
   color: rgb(245, 243, 160);
   font-size: 50px;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
@@ -33,5 +38,14 @@ header ul {
 header li a {
   margin-left: 20px;
   text-decoration: none;
-  color: black;
+  color: rgb(301, 224, 1);
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+header li a:hover,
+header li a:active {
+  background-color:rgb(243, 240, 35);
+  color: rgb(82, 80, 80);
 }
