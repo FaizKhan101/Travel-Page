@@ -1,0 +1,37 @@
+#first-section {
+    color: white;
+    text-align: center;
+}
+
+#first-section h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#first-section p {
+    color: rgb(211, 208, 208);
+    opacity: 75%;
+}
+
+#second-section {
+    width: 50%;
+    margin: 0 auto 80px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: 5px;
+}
+

@@ -39,7 +39,7 @@ header ul {
 header li a {
   margin-left: 20px;
   text-decoration: none;
-  color: rgb(301, 224, 1);
+  color: rgb(255, 251, 0);
   padding: 8px 12px;
   border-radius: 4px;
   transition: 0.5s;
@@ -47,7 +47,7 @@ header li a {
 
 header li a:hover,
 header li a:active {
-  background-color:rgb(243, 240, 35);
+  background-color:rgb(255, 251, 0);
   color: rgb(82, 80, 80);
 }
 
